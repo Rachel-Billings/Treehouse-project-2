@@ -1,0 +1,297 @@
+* {
+box-sizing: border-box;
+}
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #4c4c4c;
+    background-color: #f4f4f4;
+    line-height: 1.5;  
+}
+
+
+h1 {
+    margin: 0;
+    padding-top: 1.5em;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+h2 {
+    font-weight: 900;
+
+}
+
+h3 {
+    color: #ff9a76;
+
+}
+
+h4 {
+ font-weight: 900;
+ display: inline;
+ margin-right: 5rem;
+
+}
+
+
+p {
+    width: 60%;
+    margin: 2em auto;
+
+}
+
+hr {
+    border-top: solid 1px grey;
+    width: 95%;
+
+}
+
+footer {
+    border-top: solid 1px #f1f3de;
+    padding: 1.5em 0;
+}
+
+
+
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+/* ---- Navigation ---- */
+
+
+ul,
+li {
+   margin: 1.5em auto; 
+
+}
+
+.main-nav {
+    padding-bottom: 2em;
+
+}
+
+.a-nav {
+    background-color: white;
+    padding: 7px 5em;
+    display: block;
+    width: 80%;
+    margin: 0 auto; 
+
+
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.a-nav,
+.f-nav,
+.top, 
+ a:hover {
+color: #637373;
+font-weight: 900;
+
+}
+
+
+.portfolio-img {
+    width: 90%;
+
+}
+
+.f-nav {
+    visibility: hidden;
+
+}
+
+
+/* ---- Layout Containers ---- */
+
+.intro-pic {
+    width: 65%;
+}
+
+
+#portfolio {
+    background-color: white;
+    padding: 2em 0;
+    margin: 5rem auto;
+    width: 95%;
+
+
+}
+
+.main-div {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+    li {
+      display: inline-block;
+      width: 14%;
+      margin: 0; 
+      padding-top: 2em;
+    
+    }
+
+    .a-nav {
+        background-color:  #f4f4f4;
+        padding: 0;
+    }
+
+
+    .float-intro {
+        width: 50%;
+        float: right;
+
+    }
+
+    .home-container {
+        margin-bottom: 3em;
+
+    }
+
+    .portfolio-img {
+        width: 95%;
+    
+    }
+
+    .float-container {
+        width: 100%;
+        margin-top: 3em;
+    }
+
+    .float-child {
+        width: 50%;
+        float: left;
+
+    }
+
+    .footer-nav {
+        visibility: hidden;
+
+    }
+
+
+    .clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+
+}
+
+
+
+@media (min-width: 1024px) {
+
+    li {
+        display: inline-block;
+        width: 14%;
+        margin: 0; 
+        padding-top: 2em;
+      
+      }
+
+
+    h1 {
+        float: left;
+        padding-top: .5em;
+        margin-left: 2em;
+    }
+
+
+    p {
+        width: 100%;
+        margin: 2em auto;
+
+    }
+
+
+
+    .float-intro {
+        width: 45%;
+        float: right;
+
+    }
+
+    .home-container {
+        margin-bottom: 3em;
+
+    }
+
+    .portfolio-img {
+        width: 70%;
+    
+    }
+
+    .skills {
+        background-color: #ff9a76;
+        padding: 2em 0;
+        color: #fff;
+
+    }
+
+
+    .float-container {
+        width: 100%;
+        margin: 3em 0;
+    }
+
+    .float-child {
+        width: 33.33%;
+        float: left;
+
+    }
+
+    .top {
+       visibility: hidden;
+
+    }
+
+    footer {
+        padding: 0;
+
+    }
+
+    h4 {
+        float: left;
+        padding-top: 3.5em;
+        margin-left: 4em;
+
+    }
+    .footer-nav li {
+        margin: 0;
+
+    }
+
+    .f-nav {
+        padding-bottom: 2em;
+        visibility: visible;
+    }
+
+    .clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+
+}
