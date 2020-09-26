@@ -54,7 +54,6 @@ hr {
 
 footer {
     border-top: solid 1px #f1f3de;
-    padding: 1.5em 0;
 }
 
 
@@ -69,7 +68,7 @@ footer {
 
 ul,
 li {
-   margin: 1.5em auto; 
+   margin: 1em auto; 
 
 }
 
@@ -108,8 +107,8 @@ font-weight: 900;
 
 }
 
-.f-nav {
-    visibility: hidden;
+.footer-nav li {
+    display: none;
 
 }
 
@@ -183,11 +182,6 @@ font-weight: 900;
 
     }
 
-    .footer-nav {
-        visibility: hidden;
-
-    }
-
 
     .clearfix::after {
 		content: " ";
@@ -207,6 +201,7 @@ font-weight: 900;
         width: 14%;
         margin: 0; 
         padding-top: 2em;
+       
       
       }
 
@@ -262,7 +257,7 @@ font-weight: 900;
     }
 
     .top {
-       visibility: hidden;
+     display: none; 
 
     }
 
@@ -273,19 +268,16 @@ font-weight: 900;
 
     h4 {
         float: left;
-        padding-top: 3.5em;
-        margin-left: 4em;
+        margin: 0 0 0 4em;
 
     }
+
     .footer-nav li {
+        padding: 0;
         margin: 0;
-
+        display: inline-block;
     }
 
-    .f-nav {
-        padding-bottom: 2em;
-        visibility: visible;
-    }
 
     .clearfix::after {
 		content: " ";
